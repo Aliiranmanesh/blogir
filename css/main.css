@@ -204,7 +204,7 @@ body {
 }
 
 .container {
-    max-width: 80rem;
+    max-width: 70rem;
     margin-right: auto;
     margin-left: auto;
     padding-right: 1rem;
@@ -221,7 +221,6 @@ body {
     justify-content: space-between;
     align-items:center;
     margin-top: 2rem;
-    text-transform: uppercase;
 }
 .main-nav{
     display: flex;
@@ -233,7 +232,7 @@ body {
     list-style: none;
     padding: 0;
     display: flex;
-    gap: 1.5rem;
+    gap: 2rem;
 
 }
 
@@ -241,13 +240,11 @@ body {
     font-weight: bold;
 
 }
-.n-market{
-    margin-right: 7rem;
-    font-family: "Poppins Italic";
-    font-size: large;
-     color: #6e6e75;
-
+.item-menue a {
+    text-decoration: none;
+    color: inherit;
 }
+
 .button{
     
 }
@@ -263,6 +260,10 @@ body {
     font-weight: bold;
     
 }
+.contact-button a{
+    text-decoration: none;
+    color: inherit;
+}
 
 /* section */
 .main-section{
@@ -272,12 +273,13 @@ body {
 }
 .section-right{
     flex-basis: 50%;
+    display: flex;
+    justify-content: end;
 
 }
 .my-icon{
-    width: 80%;
-    height: 80%;
-    margin: 0 90px;
+    width: 20rem;
+    height: 20rem;
 
 }
 .section-left{
@@ -289,12 +291,7 @@ body {
     font-family: "Poppins Italic";
 
 }
-.contact-button{
 
-}
-.contact-button{
-
-}
 .contact-button-r{
     background-color: #f2711c;
     margin-left: 0.5rem;
@@ -304,8 +301,23 @@ body {
     margin-top: 50px;
 }
 
-
-
+.footer-style{
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins Italic";
+    font-size: small;
+}
+.footer-style a{
+    text-decoration: none;
+    color: #2c9e8b;
+    font-weight: bold;
+}
+.footer-style a:hover{
+    color: #f2711c;
+}
+.footer-style a:visited{
+    color: #f2711c;
+}
 
 
 
