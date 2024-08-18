@@ -1,10 +1,13 @@
 @font-face {
-    font-family:"Poppins Light";
-    src: url(/fonts/Poppins-Light.ttf);}
+    font-family: "Poppins Light";
+    src: url(/fonts/Poppins-Light.ttf);
+}
+
 @font-face {
-    font-family:"Poppins Italic";
+    font-family: "Poppins Italic";
     src: url(/fonts/Poppins-Italic.ttf);
 }
+
 /* Normalize Css */
 
 html {
@@ -134,7 +137,8 @@ legend {
     color: inherit;
     display: table;
     max-width: 100%;
-    padding: 0; /* 3 */
+    padding: 0;
+    /* 3 */
     white-space: normal;
 }
 
@@ -191,6 +195,7 @@ template {
 
 html {
     box-sizing: border-box;
+    background: #fafafa;
 }
 
 *,
@@ -205,30 +210,34 @@ body {
 
 .container {
     max-width: 70rem;
+    max-height: 100vh;
     margin-right: auto;
     margin-left: auto;
     padding-right: 1rem;
     padding-left: 1rem;
-
-    
+    padding: 3rem;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* header  */
-.header{
+.header {
     width: 100%;
     height: 3rem;
     display: flex;
     justify-content: space-between;
-    align-items:center;
-    margin-top: 2rem;
+    align-items: center;
+    margin-top: 1rem;
 }
-.main-nav{
+
+.main-nav {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.list-menue{
+
+.list-menue {
     list-style: none;
     padding: 0;
     display: flex;
@@ -236,21 +245,20 @@ body {
 
 }
 
-.item-menue{
+.item-menue {
     font-weight: bold;
 
 }
+
 .item-menue a {
     text-decoration: none;
     color: inherit;
 }
 
-.button{
-    
-}
-.contact-button{
+
+.contact-button {
     width: 8rem;
-    height: 3rem;
+    height: 2.5rem;
     background-color: #2c9e8b;
     border-radius: 5px;
     color: #ffffff;
@@ -258,64 +266,77 @@ body {
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    
+
 }
-.contact-button a{
+
+.contact-button a {
     text-decoration: none;
     color: inherit;
 }
 
+
 /* section */
-.main-section{
-    height: 70vh;
+
+
+.main-section {
     display: flex;
     margin-top: 7rem;
 }
-.section-right{
+
+.section-right {
     flex-basis: 50%;
     display: flex;
     justify-content: end;
 
 }
-.my-icon{
+
+.my-icon {
     width: 20rem;
     height: 20rem;
 
 }
-.section-left{
+
+.section-left {
     flex-basis: 50%;
 
 
 }
-.description-text{
+
+.description-text {
     font-family: "Poppins Italic";
 
 }
 
-.contact-button-r{
+.contact-button-r {
     background-color: #f2711c;
     margin-left: 0.5rem;
 }
-.button-container{
+
+.button-container {
     display: flex;
     margin-top: 50px;
 }
 
-.footer-style{
+.footer-style {
     display: flex;
     justify-content: center;
     font-family: "Poppins Italic";
     font-size: small;
+    margin-top: 15rem;
+
 }
-.footer-style a{
+
+.footer-style a {
     text-decoration: none;
     color: #2c9e8b;
     font-weight: bold;
 }
-.footer-style a:hover{
+
+.footer-style a:hover {
     color: #f2711c;
 }
-.footer-style a:visited{
+
+.footer-style a:visited {
     color: #f2711c;
 }
 
